@@ -1,0 +1,27 @@
+h1, h2 {
+    color: white;
+    background-color: black;
+}
+.page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+p{
+    text-align: justify;    
+}
+
+h2, h3, .section {
+    margin-bottom: 0;
+}
+h3, p, ul {
+    margin-top: 0;
+}
+
+ul {
+    margin-bottom: 4;
+}
+
+.section {
+    margin-top: 4px;
+}
