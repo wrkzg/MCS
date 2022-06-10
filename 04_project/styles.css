@@ -11,6 +11,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .content{
@@ -34,4 +35,9 @@
 .column-text{
     margin-top: 41px;
     width: 334px;
+}
+
+.white-links{
+    text-decoration: none;
+    color: white;
 }
