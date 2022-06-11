@@ -1,7 +1,6 @@
 .page{
     font-family: Helvetica;
     font-size: 20px;
-    width: 1440px;
     margin: 0 auto;
 }
 .header, .footer{
@@ -23,8 +22,9 @@
 .central-column, .column{
     border: 3px solid #E5E000;
     border-radius: 20px;
-    width: 400px;
+    /*width: 400px;*/
     padding: 33px;
+    flex: 1
 }
 
 .central-column{
@@ -34,7 +34,6 @@
 
 .column-text{
     margin-top: 41px;
-    width: 334px;
 }
 
 .white-links{
