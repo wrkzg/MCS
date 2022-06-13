@@ -92,6 +92,7 @@
     display: flex;
     margin-bottom: 180px;
     margin-top: 150px;
+    justify-content:space-between;
 }
 
 .bottle {
