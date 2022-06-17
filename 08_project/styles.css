@@ -22,9 +22,10 @@ body {
 
 
 .holidays-form-header {
-    margin-top: 5px;
-    margin-bottom: 120px;
-    text-align: center;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-element,
