@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Заявление на отпуск</title>
+</head>
+<body>
+    <header class="holidays-form-header">
+        <h1>Заявление на отпуск</h1>
+        <p>заполните поля ниже и нажмите "Отправить"</p>
+    </header>
+    <form action="https://formspree.io/f/xjvlzqga" method="POST" class="holidays-form">
+        <div class="form-element">
+            <label for="full-name">Ваши ФИО</label>
+            <input id="full-name" name="full-name" type="text" required placeholder="Иванов Иван Иванович"/>
+        </div>
+        <div class="form-element">
+            <label for="position">Ваша должность</label>
+            <input id="position" name="position" type="text" required/>
+        </div>
+        <div class="form-element">
+            <label for="department">Выберите в списке ваш отдел:</label>
+            <select id="department" name="department">
+                <option value="dep-adm">Администрация</option>
+                <option value="dep-acc">Бухгалтерия</option>
+                <option value="dep-hr">Кадры</option>
+                <option value="dep-it">IT</option>
+                <option value="dep-sec">Безопасность</option>
+            </select>
+        </div>
+        <fieldset class="legacy-form-element">
+            <legend>Основание отпуска</legend>
+            <input id="reason-1" name="reason" type="radio" value="annual" checked />
+            <label for="reason-1" class="reason">Ежегодный отпуск</label>
+            <input id="reason-2" name="reason" type="radio" value="personal" />
+            <label for="reason-2" class="reason">Отпуск за свой счёт</label>
+            <input id="reason-3" name="reason" type="radio" value="overtime" />
+            <label for="reason-3" class="reason">Отпуск в счет переработки часов</label>
+        </fieldset>
+        <div class="form-element">
+            <label for "start-date">Дата начала отпуска</label>
+            <input id="start-date" name="start-date" type="date">
+        </div>
+        <div class="form-element">
+            <label for "days">Количество дней отпуска</label>
+            <input id="days" name="days" type="number">
+        </div>
+        <div class="form-element">
+            <button>Отправить</button>
+        </div>
+    </form>
+</body>
+</html>
